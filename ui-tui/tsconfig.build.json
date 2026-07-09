@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@kopi/ink": ["src/types/kopi-ink.d.ts"]
+    }
+  }
+}
