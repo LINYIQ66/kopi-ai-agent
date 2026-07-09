@@ -178,6 +178,46 @@ scripts/run_tests.sh
 
 ---
 
+## Memory Provider
+
+KOPI AI AGENT ships with a dedicated **KOPI Memory** provider backed by [kopi-agent-memory](https://github.com/LINYIQ66/kopi-agent-memory) — a production-grade multi-layer memory system with:
+
+- **Hot Tier (Redis)** — Session state, <1ms latency
+- **Warm Tier (PostgreSQL + pgvector)** — Semantic search, HNSW indexing, ~5ms queries
+- **Cold Tier (S3/MinIO)** — Unlimited archive with gzip compression
+- **Multi-Agent Shared Memory** — Cross-agent KV store with TTL
+
+**Enable it:**
+
+```yaml
+# config.yaml
+memory:
+  provider: kopi
+```
+
+**Environment variables:**
+
+```bash
+export KOPI_MEMORY_API_URL=http://localhost:8900
+export KOPI_MEMORY_API_KEY="your-jwt-key"
+export KOPI_MEMORY_USER_ID="hermes"
+```
+
+**Deploy the backend:**
+
+```bash
+git clone https://github.com/LINYIQ66/kopi-agent-memory.git
+cd kopi-agent-memory
+docker compose up -d
+```
+
+The provider exposes three tools to the agent:
+- `memory_search` — Semantic search across past conversations
+- `memory_save` — Store important facts and preferences
+- `memory_forget` — Remove specific memories
+
+---
+
 ## Community
 
 - 🐛 [Issues](https://github.com/LINYIQ66/kopi-ai-agent/issues)

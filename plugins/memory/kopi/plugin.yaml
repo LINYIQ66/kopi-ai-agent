@@ -1,0 +1,9 @@
+name: kopi
+version: 1.0.0
+description: "KOPI Memory — Production-grade multi-layer memory system with Hot/Warm/Cold tiers, semantic search, multi-agent shared memory, and cloud sync."
+requires_env:
+  - KOPI_MEMORY_API_URL
+pip_dependencies: []
+hooks:
+  - on_session_end
+  - on_delegation
