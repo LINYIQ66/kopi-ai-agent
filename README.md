@@ -178,7 +178,9 @@ scripts/run_tests.sh
 
 ---
 
-## Memory Provider
+## 🧠 KOPI Memory Provider
+
+<img src="assets/kopi-memory-logo.jpg" width="180" align="right" alt="KOPI Memory">
 
 KOPI AI AGENT ships with a dedicated **KOPI Memory** provider backed by [kopi-agent-memory](https://github.com/LINYIQ66/kopi-agent-memory) — a production-grade multi-layer memory system with:
 
