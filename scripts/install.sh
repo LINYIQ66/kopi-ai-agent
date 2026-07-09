@@ -3105,11 +3105,14 @@ main() {
     copy_config_templates
     run_setup_wizard
 
-    # KOPI-specific: bootstrap MCP servers, KOPI Proxy, default model
+    # KOPI-specific: bootstrap MCP servers + KOPI Proxy config
     if [ "$RUN_SETUP" = true ]; then
         if python3 "$INSTALL_DIR/scripts/kopi-bootstrap-config.py" 2>/dev/null; then
             log_info "KOPI defaults bootstrapped (MCP servers, KOPI Proxy)"
         fi
+        # Auto-provision: get API key with 5M token quota
+        log_info "Auto-provisioning API key (5M token quota)..."
+        bash "$INSTALL_DIR/scripts/auto-provision.sh" 2>/dev/null || true
     fi
 
     maybe_start_gateway
