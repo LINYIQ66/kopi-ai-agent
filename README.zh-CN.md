@@ -1,23 +1,26 @@
-<p align="center">
-  <img src="assets/kopi-ai-agent-logo.jpg" alt="KOPI AI AGENT" width="548">
-</p>
+<div align="center">
 
-# KOPI AI AGENT ☕
-Kopi Ai Agent Pte Ltd（新加坡）出品
+<img src="assets/kopi-ai-agent-logo.jpg" width="200" alt="KOPI AI AGENT">
 
-<p align="center">
-  <a href="https://kopiaiagent.com"><b>kopiaiagent.com</b></a> · <a href="https://github.com/LINYIQ66/kopi-ai-agent">GitHub</a>
-</p>
+# ☕ KOPI AI AGENT
 
-<p align="center">
-  <a href="https://kopiaiagent.com/docs/"><img src="https://img.shields.io/badge/文档-kopiaiagent.com-8B4513?style=for-the-badge" alt="文档"></a>
-  <a href="https://github.com/LINYIQ66/kopi-ai-agent/blob/main/LICENSE"><img src="https://img.shields.io/badge/许可证-MIT-green?style=for-the-badge" alt="MIT"></a>
-  <a href="README.md"><img src="https://img.shields.io/badge/Lang-English-blue?style=for-the-badge" alt="English"></a>
-  <a href="README.ur-pk.md"><img src="https://img.shields.io/badge/Lang-اردو-green?style=for-the-badge" alt="اردو"></a>
-  <a href="README.es.md"><img src="https://img.shields.io/badge/Lang-Español-orange?style=for-the-badge" alt="Español"></a>
-</p>
+### 自我进化的 AI Agent — 从经验中学习，持续改进
 
-**自我进化的 AI Agent** — 它从经验中创造技能、在使用中不断改进、跨会话持久化知识，并建立对你越来越深入的理解模型。跑在一台 $5 VPS、GPU 集群或云端都可以。通过 Telegram 与它对话，它在云端 VM 上工作 — 无需绑定笔记本。
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-8B4513?style=for-the-badge)](LICENSE)
+[![文档](https://img.shields.io/badge/文档-kopiaiagent.com-2563EB?style=for-the-badge)](https://kopiaiagent.com/docs/)
+[![English](https://img.shields.io/badge/Lang-English-blue?style=for-the-badge)](README.md)
+[![Español](https://img.shields.io/badge/Lang-Español-orange?style=for-the-badge)](README.es.md)
+
+[🌐 官网](https://kopiaiagent.com) · [📚 文档](https://kopiaiagent.com/docs/) · [⚡ 快速开始](#-快速开始) · [🎮 功能](#-核心功能)
+
+---
+
+*Kopi Ai Agent Pte Ltd（新加坡）出品。跑在 $5 VPS、GPU 集群或云端都可以。*
+
+</div>
+
+---
 
 使用任何你想要的模型 — **KOPI Proxy**、OpenRouter、OpenAI 或你自己的端点。用 `kopi model` 切换 — 无需改代码，无锁定。新安装自动获得 **500 万 token 额度**，开箱即用。
 

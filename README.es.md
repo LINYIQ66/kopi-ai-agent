@@ -1,23 +1,28 @@
-<p align="center">
-  <img src="assets/kopi-ai-agent-logo.jpg" alt="KOPI AI AGENT" width="548">
-</p>
+<div align="center">
 
-# KOPI AI AGENT ☕
-Por Kopi Ai Agent Pte Ltd (Singapur)
+<img src="assets/kopi-ai-agent-logo.jpg" width="200" alt="KOPI AI AGENT">
 
-<p align="center">
-  <a href="https://kopiaiagent.com"><b>kopiaiagent.com</b></a> · <a href="https://github.com/LINYIQ66/kopi-ai-agent">GitHub</a>
-</p>
+# ☕ KOPI AI AGENT
 
-<p align="center">
-  <a href="https://kopiaiagent.com/docs/"><img src="https://img.shields.io/badge/Docs-kopiaiagent.com-8B4513?style=for-the-badge" alt="Documentación"></a>
-  <a href="https://github.com/LINYIQ66/kopi-ai-agent/blob/main/LICENSE"><img src="https://img.shields.io/badge/Licencia-MIT-green?style=for-the-badge" alt="MIT"></a>
-  <a href="README.zh-CN.md"><img src="https://img.shields.io/badge/Lang-中文-red?style=for-the-badge" alt="中文"></a>
-  <a href="README.ur-pk.md"><img src="https://img.shields.io/badge/Lang-اردو-green?style=for-the-badge" alt="اردو"></a>
-  <a href="README.md"><img src="https://img.shields.io/badge/Lang-English-blue?style=for-the-badge" alt="English"></a>
-</p>
+### El agente de IA auto-mejorable que aprende de la experiencia
 
-**El agente de IA auto-mejorable.** Crea habilidades desde la experiencia, las mejora durante el uso, persiste el conocimiento entre sesiones y construye un modelo cada vez más profundo de quién eres. Ejecútalo en un VPS de $5, un clúster de GPU o en la nube. Háblale desde Telegram mientras trabaja en una VM en la nube.
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-8B4513?style=for-the-badge)](LICENSE)
+[![Docs](https://img.shields.io/badge/Docs-kopiaiagent.com-2563EB?style=for-the-badge)](https://kopiaiagent.com/docs/)
+[![中文](https://img.shields.io/badge/Lang-中文-red?style=for-the-badge)](README.zh-CN.md)
+[![English](https://img.shields.io/badge/Lang-English-blue?style=for-the-badge)](README.md)
+
+[🌐 Sitio web](https://kopiaiagent.com) · [📚 Docs](https://kopiaiagent.com/docs/) · [⚡ Inicio rápido](#-inicio-rápido)
+
+---
+
+*Por Kopi Ai Agent Pte Ltd (Singapur). Ejecútalo en un VPS de $5, un clúster de GPU o en la nube.*
+
+</div>
+
+---
+
+Crea habilidades desde la experiencia, las mejora durante el uso, persiste el conocimiento entre sesiones y construye un modelo cada vez más profundo de quién eres. Háblale desde Telegram mientras trabaja en una VM en la nube.
 
 Usa cualquier modelo — **KOPI Proxy**, OpenRouter, OpenAI o tu propio endpoint. Cambia con `kopi model` — sin cambios de código, sin bloqueo. Las nuevas instalaciones obtienen **5 millones de tokens** auto-aprovisionados.
 
