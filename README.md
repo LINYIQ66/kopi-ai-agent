@@ -40,6 +40,8 @@ Use any model you want — **KOPI Proxy**, OpenRouter, OpenAI, or your own endpo
 <tr><td><b>📈 Stock Intelligence</b></td><td>Built-in real-time market data (US & HK), 30+ technical indicators, AI-powered analysis. No API keys — just install and analyze.</td></tr>
 <tr><td><b>🎬 Media Generation</b></td><td>Text-to-image (Krea 2, FAL, SDXL), video generation with voiceover & subtitles. All through unified MCP tools.</td></tr>
 <tr><td><b>🧑‍💼 Digital Human</b></td><td>Alpaca-powered AI avatars with lip-sync, voice cloning, and multi-language TTS. For live streaming and customer service.</td></tr>
+<tr><td><b>📰 Content Engine</b></td><td>Daily briefings, content repurposing (podcast→social), RSS monitoring, multi-language auto-publishing.</td></tr>
+<tr><td><b>💼 Business Suite</b></td><td>SME advertising (TikTok ads + coupon engine), digital commerce (Stripe + USDC), customer onboarding portal.</td></tr>
 </table>
 
 ---
@@ -317,6 +319,102 @@ kopi tools          # enable Digital Human
 | **Live Streaming** | Broadcast to TikTok, YouTube, WeChat channels |
 
 > 🔒 Powered by KOPI's proprietary Alpaca engine. No external dependencies — activate via `kopi tools` and start creating.
+
+---
+
+## 📰 KOPI Content & Media Ecosystem
+
+KOPI AI AGENT powers a full **content lifecycle** — from daily briefings to podcast repurposing to automated publishing.
+
+### Daily Briefings
+
+```bash
+kopi tools          # enable Content & Briefings
+```
+
+| Feature | Description |
+|---------|-------------|
+| **Daily Digest** | Automated morning market briefings (SG/US/HK) delivered to Telegram |
+| **Awesome Daily** | Curated tech & AI news digest, published as interactive HTML pages |
+| **RSS Monitoring** | Blog & feed watcher with change detection and smart summarization |
+| **Multi-language** | Auto-generate content in English, Chinese, Malay, Tamil |
+
+```
+You: 今天的财经新闻简报
+KOPI: 📰 KOPI Daily — 2026-07-09
+  📈 SG: STI +0.8%, DBS创年内新高
+  🇺🇸 US: 纳指收涨1.2%, AI板块领涨
+  🇭🇰 HK: 恒指微跌0.3%, 南向资金净流入
+  🔗 Full report: sub.readinghero.xyz/awesome-daily/2026-07-09
+```
+
+### Content Repurposing Engine
+
+Transform one piece of content into multi-platform output:
+
+```
+You: 把这篇播客转成小红书文案+推文+LinkedIn长文
+KOPI: ✨ Content repurposed:
+  📕 小红书: 3篇图文已生成
+  🐦 Twitter: 5条thread
+  💼 LinkedIn: 1篇长文已排版
+```
+
+### PDF & Document Tools
+
+- **PDF Conversion** — Extract, merge, split, and convert PDF documents
+- **OCR** — Scan and digitize printed documents with high accuracy
+- **Document Generation** — Create .docx reports, invoices, proposals from templates
+
+> 🔒 All content pipelines run through KOPI's managed infrastructure. No external API dependencies.
+
+---
+
+## 💼 KOPI Business Suite (SaaS)
+
+KOPI AI AGENT includes ready-to-deploy **business tools** for SMEs in Southeast Asia.
+
+### 🛍️ KOPI Shop — Digital Commerce
+
+```bash
+kopi tools          # enable KOPI Shop
+```
+
+| Feature | Description |
+|---------|-------------|
+| **Digital Products** | Sell premium prompts, AI agents, and digital assets |
+| **Stripe + USDC** | Fiat payments via Stripe, crypto via Base network |
+| **Instant Delivery** | Automated fulfillment on payment confirmation |
+| **Multi-tenant** | Per-vendor storefronts with revenue analytics |
+
+### 📊 SME Advertising Manager
+
+Built-in **advertising management** for F&B and retail businesses:
+
+| Feature | Description |
+|---------|-------------|
+| **Boss Survey** | Onboarding questionnaire for business profiling |
+| **TikTok Ads** | Campaign creation, budget management, performance tracking |
+| **Coupon Engine** | QR code generation, redemption tracking, expiry control |
+| **KPI Dashboard** | Real-time ROAS, CTR, conversion metrics |
+
+```
+You: 查看这周的TikTok广告数据
+KOPI: 📊 SME Ad Report — Week of Jul 7
+  💰 总花费: SGD $480
+  👀 曝光: 142K (+18% vs last week)
+  🎯 CTR: 3.2% (行业平均 1.8%)
+  ✅ 核销: 37张优惠券已使用
+  💵 ROAS: 4.2x
+```
+
+### 🏪 KOPI Portal — Customer Onboarding
+
+- **Self-service signup** — New customers onboard via web portal
+- **API key provisioning** — Automatic key generation and quota allocation
+- **Billing management** — Usage tracking, invoice generation, payment history
+
+> 🔒 All business services are production-deployed on KOPI's managed cloud. Activate via `kopi tools` — no separate infrastructure needed.
 
 ---
 
