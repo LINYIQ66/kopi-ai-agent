@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="KOPI AI AGENT" width="100%">
+  <img src="assets/kopi-ai-agent-logo.jpg" alt="KOPI AI AGENT" width="548">
 </p>
 
 # KOPI AI AGENT ☕
